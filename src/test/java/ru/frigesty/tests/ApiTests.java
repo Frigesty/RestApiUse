@@ -116,7 +116,7 @@ public class ApiTests {
                 .contentType(JSON)
                 .body(requestBody)
                 .when()
-                .put("/api/users/2")
+                .put("/users/2")
                 .then()
                 .statusCode(200)
                 .body("name", equalTo("morpheus"))
@@ -128,7 +128,7 @@ public class ApiTests {
     public void deleteUserTest() {
         given()
                 .when()
-                .delete("/api/users/2")
+                .delete("/users/2")
                 .then()
                 .statusCode(204);
     }
