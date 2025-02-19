@@ -1,0 +1,13 @@
+HELP.md
+build/
+!**/src/test/**
+
+### IntelliJ IDEA ###
+.idea
+
+### Gradle ###
+.gradle
+gradle
+gradlew
+gradlew.bat
+settings.gradle
